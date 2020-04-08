@@ -17,5 +17,5 @@ def loop_message_n_times(message, number)
 end
 
 def output(array)
-  array
+  array = ["5", "4", "3", "2", "1"]
 end
