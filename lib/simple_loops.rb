@@ -7,16 +7,15 @@ def loop_message_five_times(message)
   end
 end
 
-def loop_message_n_times(message, number)
-  number = 5
+def loop_message_n_times(message, limit)
   counter = 0
-  while counter != number do
-    puts "Hello Moon"
+  while counter < limit do
+    puts message
     counter += 1
   end
 end
 
 def output(array)
-  array = ["5", "4", "3", "2", "1"]
-  output(array)
+  array = [5, 4, 3, 2, 1]
+
 end
