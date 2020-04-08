@@ -18,4 +18,5 @@ end
 
 def output(array)
   array = ["5", "4", "3", "2", "1"]
+  output(array)
 end
